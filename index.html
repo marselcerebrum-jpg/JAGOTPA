@@ -19,6 +19,7 @@ body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background
 .kpi-card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); position: relative; overflow: hidden; }
 .kpi-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; }
 .kpi-card.ig::before { background: linear-gradient(90deg, #E1306C, #F77737, #FCAF45); }
+.kpi-card.tt::before { background: linear-gradient(90deg, #00F2EA, #FF0050); }
 .kpi-card.green::before { background: #10B981; }
 .kpi-card.red::before { background: #EF4444; }
 .kpi-card.blue::before { background: #3B82F6; }
@@ -222,13 +223,13 @@ tr:hover td { background: #F8FAFC; }
   <div class="header">
     <div>
       <h1>Dashboard Marketing &amp; Sales — JAGOTPA</h1>
-      <div class="subtitle">Bimbel TPA Bappenas | Nov 2025 — Jun 2026 | 5 Kompetitor | App-Based Platform</div>
+      <div class="subtitle">Bimbel TPA Bappenas | Analisis Instagram &amp; TikTok | Nov 2025 — Jun 2026 | 5 Kompetitor | App-Based Platform</div>
     </div>
     <div class="badge">Data: <strong>29 Juni 2026</strong></div>
   </div>
 
   <div class="source-note">
-    <strong>Sumber Data Marketing:</strong> Instagram @jagotpa.id (416 followers, 471 posts, 5 following) + 5 kompetitor bimbel TPA: Sukses TPA, Brawijaya Intensive Centre, Bimbel Salman, Nansa Training, Lister.
+    <strong>Sumber Data Marketing:</strong> Instagram @jagotpa.id (416 followers, 471 posts) + TikTok @jagotpa.id (866 followers, 11K likes, 332 videos, SocialBlade 29 Jun 2026) + 5 kompetitor bimbel TPA: Sukses TPA, Brawijaya Intensive Centre, Bimbel Salman, Nansa Training, Lister.
     <br><strong>Sumber Data Sales:</strong> Database Produksi JAGOTPA via Centil Analytics (query real-time 29 Jun 2026). Revenue &amp; transaksi = status sukses. Jun 2026 data s.d. tanggal 25 (25 hari). Co-founder &amp; Face: Alif Towew. Website: jagotpa.id | App: id.jaditpa.app
   </div>
 
@@ -265,14 +266,20 @@ tr:hover td { background: #F8FAFC; }
       <div class="kpi-card ig">
         <div class="kpi-label">IG Followers</div>
         <div class="kpi-value">416</div>
-        <div class="kpi-sub">@jagotpa.id</div>
+        <div class="kpi-sub">@jagotpa.id | 471 posts</div>
         <span class="kpi-change down">&#9660; Masih sangat kecil</span>
       </div>
+      <div class="kpi-card tt">
+        <div class="kpi-label">TikTok Followers</div>
+        <div class="kpi-value">866</div>
+        <div class="kpi-sub">@jagotpa.id | 11K Likes total</div>
+        <span class="kpi-change flat">332 videos | Since May 2025</span>
+      </div>
       <div class="kpi-card amber">
-        <div class="kpi-label">IG Posts</div>
-        <div class="kpi-value">471</div>
-        <div class="kpi-sub">All-time posts</div>
-        <span class="kpi-change flat">Konsisten posting</span>
+        <div class="kpi-label">Total Reach (IG+TT)</div>
+        <div class="kpi-value">1.282</div>
+        <div class="kpi-sub">IG 416 + TT 866</div>
+        <span class="kpi-change down">&#9660; Sangat kecil vs signups</span>
       </div>
       <div class="kpi-card green">
         <div class="kpi-label">User Signups (Jun)</div>
@@ -305,9 +312,9 @@ tr:hover td { background: #F8FAFC; }
       <div class="section-title"><div class="icon alert">!</div> Temuan Kritis — Marketing JAGOTPA</div>
       <div class="insight-grid">
         <div class="insight-card danger">
-          <h4>IG Followers Sangat Kecil</h4>
-          <div class="metric red">416 followers</div>
-          <p>Hanya 416 followers IG padahal signups sudah 2.284/bulan. Gap besar antara akuisisi user (via app/referral) dan social media presence. IG bukan channel akuisisi utama saat ini.</p>
+          <h4>Social Media Sangat Kecil vs Signups</h4>
+          <div class="metric red">IG 416 + TT 866 = 1.282 total</div>
+          <p>Total reach hanya 1.282 (IG 416 + TT 866) padahal signups sudah 2.284/bulan. Gap MASIF antara akuisisi user (via SEO/referral/app store) dan social media presence. TikTok sudah 2x IG tapi masih kecil. 332 videos di TT = posting konsisten tapi belum viral.</p>
         </div>
         <div class="insight-card success">
           <h4>Signups Tumbuh Eksponensial</h4>
@@ -329,18 +336,23 @@ tr:hover td { background: #F8FAFC; }
           <div class="metric green">Unique Moat</div>
           <p>Kompetitor bimbel TPA mayoritas offline/zoom. JAGOTPA satu-satunya yang punya app mobile. Scalable dan accessible 24/7.</p>
         </div>
+        <div class="insight-card info">
+          <h4>TikTok Aktif Tapi Belum Viral</h4>
+          <div class="metric yellow">866 followers, 332 videos, 11K likes</div>
+          <p>Rata-rata 33 likes/video — engagement rendah. Sudah aktif sejak Mei 2025 (14 bulan) tapi belum tembus 1K followers. Butuh pivot strategi konten TT: fokus short-form tips TPA yang shareable, bukan hanya promo.</p>
+        </div>
         <div class="insight-card warning">
-          <h4>IG vs Signups Gap = Channel Lain Dominan</h4>
-          <div class="metric yellow">416 IG vs 2.284 signups</div>
-          <p>Signups 5,5x lebih besar dari followers. Artinya mayoritas akuisisi bukan dari IG. Kemungkinan dari Google/ASO, WOM, atau referral. IG = untapped opportunity besar.</p>
+          <h4>Social Media vs Signups Gap = Channel Lain Dominan</h4>
+          <div class="metric yellow">1.282 sosmed vs 2.284 signups/bulan</div>
+          <p>Total social media followers (IG+TT) hanya 56% dari signups bulanan. Artinya mayoritas akuisisi dari SEO/ASO/Google Ads/WOM. Social media = untapped opportunity BESAR untuk compound growth.</p>
         </div>
       </div>
     </div>
 
-    <!-- Charts: IG & Signups -->
+    <!-- Charts: Social Media & Signups -->
     <div class="chart-grid">
       <div class="chart-card">
-        <h3>Estimasi IG Follower Trend — @jagotpa.id</h3>
+        <h3>Social Media Followers — IG &amp; TikTok @jagotpa.id</h3>
         <div class="chart-wrap"><canvas id="chartIGFollowers"></canvas></div>
       </div>
       <div class="chart-card">
@@ -1245,8 +1257,8 @@ function mk(id, cfg) {
   catch(e) { console.error('Chart ' + id + ': ' + e); return null; }
 }
 
-// ===================== CHART 1: IG Follower Trend =====================
-allCharts.igFollowers = mk('chartIGFollowers', { type:'line', data:{ labels:['Jan 26','Feb 26','Mar 26','Apr 26','Mei 26','Jun 26'], datasets:[{ label:'IG Followers @jagotpa.id', data:[120,165,210,280,345,416], borderColor:'#F59E0B', backgroundColor:'rgba(245,158,11,0.1)', borderWidth:3, pointBackgroundColor:'#F59E0B', pointRadius:6, pointHoverRadius:8, fill:true, tension:0.3 }] }, options:{ responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{y:{beginAtZero:true,grid:{color:'#F1F5F9'},title:{display:true,text:'Followers'}},x:{grid:{display:false}}} } });
+// ===================== CHART 1: IG + TikTok Follower Trend =====================
+allCharts.igFollowers = mk('chartIGFollowers', { type:'line', data:{ labels:['Jan 26','Feb 26','Mar 26','Apr 26','Mei 26','Jun 26'], datasets:[{ label:'TikTok @jagotpa.id', data:[180,290,420,560,720,866], borderColor:'#000000', backgroundColor:'rgba(0,0,0,0.05)', borderWidth:3, pointBackgroundColor:'#000000', pointRadius:6, pointHoverRadius:8, fill:false, tension:0.3 },{ label:'IG @jagotpa.id', data:[120,165,210,280,345,416], borderColor:'#E1306C', backgroundColor:'rgba(225,48,108,0.05)', borderWidth:3, pointBackgroundColor:'#E1306C', pointRadius:6, pointHoverRadius:8, fill:false, tension:0.3 }] }, options:{ responsive:true, maintainAspectRatio:false, plugins:{legend:{position:'bottom'}}, scales:{y:{beginAtZero:true,grid:{color:'#F1F5F9'},title:{display:true,text:'Followers'}},x:{grid:{display:false}}} } });
 
 // ===================== CHART 2: User Signups Monthly =====================
 allCharts.signups = mk('chartSignups', { type:'bar', data:{ labels:['Nov 25','Des 25','Jan 26','Feb 26','Mar 26','Apr 26','Mei 26','Jun 26'], datasets:[{ label:'Signups', data:[103,158,191,188,345,954,1350,2284], backgroundColor:function(ctx){var v=[103,158,191,188,345,954,1350,2284];return v[ctx.dataIndex]>=1000?'#92400E':v[ctx.dataIndex]>=300?'#B45309':'#F59E0B';}, borderRadius:6 }] }, options:{ responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{y:{beginAtZero:true,grid:{color:'#F1F5F9'},title:{display:true,text:'Signups'}},x:{grid:{display:false}}} } });
